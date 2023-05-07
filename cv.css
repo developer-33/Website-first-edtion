@@ -1,40 +1,44 @@
 body {
-  color: hsl(18, 90%, 49%);
-  background-image: url("https://static.wixstatic.com/media/8de7ce_53ca44daec41492d895f7aeb2e13eccb~mv2.png/v1/fill/w_1920,h_1080,al_c,usm_0.66_1.00_0.01/8de7ce_53ca44daec41492d895f7aeb2e13eccb~mv2.png");
+  color: hsl(2, 90%, 45%);
+  background-image: url("https://e0.pxfuel.com/wallpapers/254/382/desktop-wallpaper-dark-futuristic-dark-futuristic-background-on-bat-futuristic-abstract.jpg");
+ background-size:cover;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
   }
 
-  li {
+  li  {
     display: inline;
+    width: 60px;
+    color: red;
   }
-
-
 
 
 #head {
     text-align: center;
-    color: hsl(18, 90%, 49%);
-    border: 2px solid hsl(191, 90%, 49%);
+    color: hsl(0, 22%, 96%);
+    border: 2px solid hsl(0, 93%, 49%);
     padding: none;
+    background-image: url(FSA_Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
 .row {
   font-family: 'Times New Roman', Times, serif;
-  color: whitesmoke;
+  color: rgb(240, 13, 13);
   font-size: medium;
 }
 
 .column {
-  color: hsl(18, 90%, 49%);
+  color: hsl(5, 94%, 50%);
   float: left;
   width: 33.33%;
   padding: 10px;
@@ -42,7 +46,7 @@ ul {
 }
 
 .column2 {
-  color: hsl(18, 90%, 49%);
+  color: hsl(12, 100%, 97%);
   float: right
   width 33.33%;
   padding: 10px;
@@ -51,7 +55,7 @@ ul {
 
 
 .p1 {
- color:hsl(191, 90%, 49%)
+ color:hsl(0, 17%, 91%)
 }
 
 
@@ -82,5 +86,5 @@ footer .media-link {
   }
   
  footer {
-    background: hsl(191, 90%, 49%);
+    background: hsl(0, 0%, 0%);
   }
